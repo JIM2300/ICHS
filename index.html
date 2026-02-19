@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- This viewport meta tag makes the app responsive on mobile phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- The title shown in the browser tab -->
+    <title>IHCHS Class of '92 — Set Executive Election</title>
+
+    <!-- Favicon: uses the IHCHS crest (you can replace this with an .ico file later) -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Open Graph tags for when the link is shared on WhatsApp, Facebook, etc. -->
+    <meta property="og:title" content="IHCHS Class of '92 — Set Executive Election" />
+    <meta property="og:description" content="Secured Electronic Voting System for the IHCHS Class of '92 Alumni Set Executive Election. Cast your vote securely." />
+    <meta property="og:type" content="website" />
+
+    <!-- Global styles: dark background to match the app's navy theme -->
+    <style>
+      /* Remove default browser margins and set the dark background */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background-color: #0a1628;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* This is the div where React will mount the app */
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- React will render the entire election app inside this div -->
+    <div id="root"></div>
+
+    <!-- This script tag loads the React entry point -->
+    <!-- Vite will replace this with the compiled bundle during the build step -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
